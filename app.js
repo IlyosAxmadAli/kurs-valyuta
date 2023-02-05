@@ -96,6 +96,7 @@ const ogirish = document.querySelector("#ogirish");
 const malumot1 = document.querySelector(".malumot1");
 const malumot2 = document.querySelector(".malumot2");
 const h1 = document.querySelector("h1");
+const yangi = document.querySelector(".yangi");
 
 let kurslar = Valyuta.value;
 
@@ -119,4 +120,7 @@ form.addEventListener("submit", (e) => {
   } else {
     h1.textContent = "Xatolik";
   }
+});
+yangi.addEventListener("click", () => {
+  history.go(0);
 });
