@@ -111,11 +111,11 @@ form.addEventListener("submit", (e) => {
   let kurslar = Valyuta.value;
   if (kurslar == "Dollar") {
     let som = 11400 * input.value;
-    natija.textContent += som + " UZS";
+    natija.textContent = som + " UZS";
     malumot2.textContent = "Natijani ko'ring";
   } else if (kurslar == "So'm") {
     let dollar = Math.round((1 / 11400) * input.value);
-    natija.textContent += dollar + " USD";
+    natija.textContent = dollar + " USD";
     malumot2.textContent = "Natijani ko'ring";
   } else {
     h1.textContent = "Xatolik";
