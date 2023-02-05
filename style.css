@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100vh;
+}
+body {
+  font-family: sans-serif;
+  font-size: 1rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: bisque;
+}
+.form {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  gap: 1rem;
+}
+.malumot1 {
+  font-size: 16px;
+}
+.malumot2 {
+  font-size: 16px;
+}
+h1 {
+  margin-bottom: 10px;
+}
+.natija {
+  width: 100%;
+  min-width: 200px;
+  height: 30px;
+  padding: 5px 5px;
+  border: 1px solid;
+}
